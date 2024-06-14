@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom classes */
+.custom-card {
+  @apply p-4 rounded-lg shadow-lg bg-white;
+}
+
+.custom-text {
+  @apply text-gray-800 font-bold text-xl;
+}
